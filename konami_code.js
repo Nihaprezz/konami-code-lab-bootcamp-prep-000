@@ -21,7 +21,7 @@ function init(e) { //will run everytime a key is pressed with addEventListener, 
   if(key === codes[index]){ 
     index++;
     if(index === codes.length){
-      alert('code was entered correctly');
+      alert('good job');
       
       index =0;
     }
