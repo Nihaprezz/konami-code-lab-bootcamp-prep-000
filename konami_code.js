@@ -13,7 +13,7 @@ const codes = [
 
 let index = 0;
 
-document.addEventListener('keydown', init);
+document.body.addEventListener('keydown', init);
 
 function init(e) { //will run everytime a key is pressed with addEventListener, no need for a loop.
   // your code here
