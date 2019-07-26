@@ -17,8 +17,7 @@ document.body.addEventListener('keydown', init);
 
 function init(e) { //will run everytime a key is pressed with addEventListener, no need for a loop.
   // your code here
-  var key = '';
-  key = e.key;
+  const button = e.key;
   if(key === codes[index]){ 
     index++;
     if(index === codes.length){
