@@ -29,3 +29,6 @@ function init(e) { //will run everytime a key is pressed with addEventListener, 
     index = 0;
   }
 }
+
+init()
+
