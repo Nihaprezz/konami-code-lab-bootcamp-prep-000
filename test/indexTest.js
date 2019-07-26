@@ -22,7 +22,7 @@ describe("index.js", () => {
   
   init()
 
-/*  describe("Konami code", () => {
+  describe("Konami code", () => {
     
     const spy = sinon.stub(window, "alert");
     
@@ -46,4 +46,4 @@ describe("index.js", () => {
       expect(spy.notCalled).to.equal(true);
     });
   });
-}); */
+}); 
